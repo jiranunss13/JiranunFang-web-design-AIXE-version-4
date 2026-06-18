@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIXELINK | AI Solutions for Modern Healthcare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-container">
+        <div class="bg-grid"></div>
+        <div class="bg-scanline"></div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="AIXELINK Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+            </a>
+        </div>
+        <div class="nav-controls">
+            <nav class="nav-links">
+                <a href="link_to_demo_page.html">SOLUTIONS</a>
+                <a href="link_to_demo_page.html">ABOUT US</a>
+            </nav>
+            <a href="link_to_demo_page.html" class="btn-demo">DEMO</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-container">
+    <div class="split-layout wide-platform">
+        
+        <div class="hero-left-col">
+            <div class="hero-header">
+                <h2>Clinical Intelligence Infrastructure</h2>
+                <h1 class="massive-title">Mastering Clinical Complexity<br>With <strong>High-Fidelity AI Engine</strong></h1>
+            </div>
+            
+            <div class="hex-stage-wrapper">
+                <div class="hex-stage">
+                    <div class="hex-box p-core" onclick="selectHex(this, 'AI CORE ENGINE', 'Centralized clinical intelligence platform designed to unify, process, and optimize real-time healthcare operations across hospital systems.', 'var(--color-core)', 'link_to_aicore.html', '98.4%', '0.4ms', 'Optimal')">
+                        <div class="hex-float"><div class="hex-shape"><div class="hex-label">AI Core</div></div></div>
+                    </div>
+                    <div class="hex-box p1" onclick="selectHex(this, 'icuCare ENGINE', 'Proactive analytics ecosystem tailored for high-acuity environments to catch physiological decompensation early.', 'var(--color-icu)', 'link_to_icucare.html', '99.1%', '1.2ms', 'Critical Watch')">
+                        <div class="hex-float"><div class="hex-shape"><div class="hex-label">icuCare</div></div></div>
+                    </div>
+                    <div class="hex-box p2" onclick="selectHex(this, 'orCare ENGINE', 'Surgical workflow orchestration platform with millisecond-latency perioperative synchronization.', 'var(--color-or)', 'link_to_orcare.html', '97.9%', '0.8ms', 'Active Synchrony')">
+                        <div class="hex-float"><div class="hex-shape"><div class="hex-label">orCare</div></div></div>
+                    </div>
+                    <div class="hex-box p3" onclick="selectHex(this, 'CareLink SYSTEM', 'Closed-loop clinical data pipeline with multi-department automated coordination structures.', 'var(--color-meds)', 'link_to_medflow.html', '96.5%', '2.1ms', 'Connected')">
+                        <div class="hex-float"><div class="hex-shape"><div class="hex-label">CareLink</div></div></div>
+                    </div>
+                    <div class="hex-box p4" onclick="selectHex(this, 'Carehub DATABASE', 'Federated architecture designed to process decentralized regional healthcare registry integrations.', 'var(--color-custom)', 'link_to_customai.html', '95.8%', '3.5ms', 'Syndicated')">
+                        <div class="hex-float"><div class="hex-shape"><div class="hex-label">Carehub</div></div></div>
+                    </div>
+                    <div class="hex-box p5" onclick="selectHex(this, 'Custom ENGINE', 'Deep learning neural models tailored specifically to your institution’s unique patient risk demographics.', 'var(--color-trauma)', 'link_to_customai.html', '99.4%', '0.5ms', 'Calibrated')">
+                        <div class="hex-float"><div class="hex-shape"><div class="hex-label">Custom</div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-side clinical-ai-panel" id="infoPanel">
+            
+            <div id="idleUI" class="text-center idle-container">
+                <div class="pulse-icon">⎔</div>
+                <p class="status-standby">SYSTEM READY</p>
+                <p class="status-hint">Select a clinical core node to initialize visualizations</p>
+            </div>
+
+            <div id="activeUI" class="active-container" style="display: none;">
+                <div class="panel-header-block">
+                    <span id="activeTag" class="active-tag">SYSTEM STATUS: OPTIMIZED</span>
+                    <h1 id="d-title" class="active-title">Title</h1>
+                    <p id="d-desc" class="active-desc">Description</p>
+                </div>
+
+                <div class="ui-image-box">
+                    <img id="d-image" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop" alt="Software UI">
+                </div>
+
+                <div class="panel-action-block">
+                    <button id="d-btn" class="active-btn">EXPLORE PLATFORM SPECIFICATION</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <section class="premium-section reveal">
+            <div class="section-layout">
+                <div class="premium-img-box">
+                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200" alt="Tech Infrastructure">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="premium-text-box">
+                    <span class="premium-tag">Infrastructure</span>
+                    <h2 class="premium-title">The <strong>IDH Core</strong> Hub</h2>
+                    <p class="premium-desc">Standardizing diverse medical data streams with enterprise-grade security. A foundation built for seamless clinical interoperability and future-proof scaling.</p>
+                    <a href="link_to_architecture.html" class="btn-premium-link">
+                        VIEW ARCHITECTURE <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="premium-section dark-theme reveal">
+            <div class="section-layout reverse">
+                <div class="premium-img-box">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200" alt="Cyber Security">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="premium-text-box">
+                    <span class="premium-tag">Security</span>
+                    <h2 class="premium-title">Neural <strong>Sharding</strong></h2>
+                    <p class="premium-desc">Security that exceeds global standards. Our proprietary sharding protocol ensures clinical records are fragmented and distributed, rendering data breaches obsolete.</p>
+                    <a href="link_to_security.html" class="btn-premium-link">
+                        SECURITY PROTOCOLS <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="premium-section reveal">
+            <div class="section-layout">
+                <div class="premium-img-box">
+                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200" alt="Medical AI">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="premium-text-box">
+                    <span class="premium-tag">Precision AI</span>
+                    <h2 class="premium-title">Predictive <strong>Vitalis</strong></h2>
+                    <p class="premium-desc">Deep learning algorithms that anticipate patient deterioration hours before clinical triggers. Move from reactive treatment to proactive care.</p>
+                    <a href="link_to_clinical_impact.html" class="btn-premium-link">
+                        CLINICAL IMPACT <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="premium-section dark-theme reveal">
+            <div class="section-layout reverse">
+                <div class="premium-img-box">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200" alt="Smart Workflow">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="premium-text-box">
+                    <span class="premium-tag">Orchestration</span>
+                    <h2 class="premium-title">Smart <strong>Workflow</strong></h2>
+                    <p class="premium-desc">Eliminating operational friction with real-time resource allocation. We optimize hospital throughput, ensuring every second is spent on what matters: the patient.</p>
+                    <a href="link_to_efficiency.html" class="btn-premium-link">
+                        EFFICIENCY METRICS <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="premium-section reveal">
+            <div class="section-layout">
+                <div class="premium-img-box idh-carousel">
+                    <div class="idh-nav-btn idh-nav-prev" onclick="manualChangeSlide(-1)">❮</div>
+                    <div class="idh-nav-btn idh-nav-next" onclick="manualChangeSlide(1)">❯</div>
+                    
+                    <div class="idh-slides-wrapper">
+                        <div class="idh-slide active">
+                            <img src="https://www.interdiscount.ch/static-shops/products/720/e12e565efadc3f2d4917949e6f7b7753d5cf.jpg" alt="IDH Front Dynamic Angle View">
+                        </div>
+                        <div class="idh-slide">
+                            <img src="https://www.interdiscount.ch/static-shops/products/720/c6ae246710b200264e4b83e97639d1137c78.jpg" alt="IDH Top Minimalist Structural View">
+                        </div>
+                        <div class="idh-slide">
+                            <img src="https://www.interdiscount.ch/static-shops/products/720/a84b9d83ab5b2cbf4db7bace544b5c79fd5c.jpg" alt="IDH Hardware Profiles and Form factor View">
+                        </div>
+                    </div>
+                    <div class="img-overlay"></div>
+                    <div class="carousel-indicators">
+                        <span class="indicator-dot active" onclick="goToSlide(0)"></span>
+                        <span class="indicator-dot" onclick="goToSlide(1)"></span>
+                        <span class="indicator-dot" onclick="goToSlide(2)"></span>
+                    </div>
+                </div>
+                <div class="premium-text-box">
+                    <span class="premium-tag">Hardware Platform</span>
+                    <h2 class="premium-title">IDH : <strong>intelligence device hub</strong></h2>
+                    <p class="premium-desc">An architectural revolution in medical hardware. An ultra-compact form factor milled from premium anodized aluminum, engineered to process decentralized Edge AI models locally at the point of care.</p>
+                    
+                    <ul class="premium-features">
+                        <li><span>✦</span> Ultra-compact structural footprint (Inspired by Mac Mini core)</li>
+                        <li><span>✦</span> Edge AI Neuro-processing optimization array</li>
+                        <li><span>✦</span> Advanced continuous 3D-thermal dissipation technology</li>
+                    </ul>
+                    
+                    <a href="link_to_idh_specs.html" class="btn-premium-link">
+                        EXPLORE IDH SPECIFICATIONS <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© AIXELINK Sàrl 2026 | <strong>THE OPERATING SYSTEM FOR MODERN MEDICINE</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
